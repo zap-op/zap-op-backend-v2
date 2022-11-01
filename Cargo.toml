@@ -1,0 +1,13 @@
+[package]
+name = "zap-op-backend-v2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4"
+mongodb = "2"
+serde = { version = "1", features = ["derive"] }
+tokio = "1"
+dotenv = "0.15"
+url = "2"
+validator = { version = "0.16", features = ["derive"] }
