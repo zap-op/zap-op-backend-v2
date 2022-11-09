@@ -1,5 +1,5 @@
+use actix_web::{get, Responder, web};
 use actix_web::dev::HttpServiceFactory;
-use actix_web::{web, get, Responder};
 
 #[get("/")]
 async fn get_login() -> impl Responder {
